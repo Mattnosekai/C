@@ -15,7 +15,7 @@ int LEN(char* sdata)
 
 char * MID(char* sdata, int start, int ends)
 {
- //MID$ funtion returns a string from int start to int ends
+ //MID$ funtion returns a substring of string sdata from int start to int ends
  start--;
  int len1;
  len1=LEN(sdata);
